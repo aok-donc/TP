@@ -1,5 +1,11 @@
-# TP 1
+# TP 
+# TP1 : Réseau d'entreprise simple avec VLANs
 
+1. Pourquoi les PC de VLANs différents ne peuvent-ils pas communiquer ?
+
+2. Comment pourrait-on faire communiquer les VLANs entre eux ?
+
+3. Quel est l'intérêt de segmenter le réseau en VLANs ?
 #TP 2
 
 | VLAN | Département | PC   | IP        | Masque        | Passerelle |
