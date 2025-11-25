@@ -17,3 +17,8 @@
 | 30   | Direction   | PC10 | 10.0.30.2 | 255.255.255.0 | 10.0.30.1  |
 | 30   | Direction   | PC11 | 10.0.30.3 | 255.255.255.0 | 10.0.30.1  |
 | 30   | Direction   | PC12 | 10.0.30.4 | 255.255.255.0 | 10.0.30.1  |
+
+1) Fa0/0 n’a pas d’IP car chaque sous-interface reçoit l’IP pour son VLAN et Fa0/0 sert juste de trunk.
+2) Oui, un trunk peut transporter théoriquement jusqu’à 4094 VLANs.
+3) Sans passerelle, un PC communique seulement dans son VLAN, pas avec les autres.
+4) Oui, plusieurs trunks sont possibles, mais un seul suffit généralement pour le routage inter-VLAN.
