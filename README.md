@@ -1,11 +1,38 @@
 # TP 
-# TP1 : Réseau d'entreprise simple avec VLANs
+## TP 1 Tableau d'adressage et réponse aux questions
 
-1. Pourquoi les PC de VLANs différents ne peuvent-ils pas communiquer ?
+| VLAN | Département     | PC   | IP              | Masque          |
+| ---- | --------------- | ---- | ---------------- | ---------------- |
+| 10   | Commercial      | PC0  | 192.168.10.1     | 255.255.255.0    |
+| 10   | Commercial      | PC1  | 192.168.10.2     | 255.255.255.0    |
+| 10   | Commercial      | PC2  | 192.168.10.3     | 255.255.255.0    |
+| 10   | Commercial      | PC3  | 192.168.10.4     | 255.255.255.0    |
+| 10   | Commercial      | PC4  | 192.168.10.5     | 255.255.255.0    |
+| 10   | Commercial      | PC5  | 192.168.10.6     | 255.255.255.0    |
+| 20   | Technique       | PC6  | 192.168.20.1     | 255.255.255.0    |
+| 20   | Technique       | PC7  | 192.168.20.2     | 255.255.255.0    |
+| 20   | Technique       | PC8  | 192.168.20.3     | 255.255.255.0    |
+| 20   | Technique       | PC9  | 192.168.20.4     | 255.255.255.0    |
+| 20   | Technique       | PC10 | 192.168.20.5     | 255.255.255.0    |
+| 20   | Technique       | PC11 | 192.168.20.6     | 255.255.255.0    |
+| 30   | Administration  | PC12 | 192.168.30.1     | 255.255.255.0    |
+| 30   | Administration  | PC13 | 192.168.30.2     | 255.255.255.0    |
+| 30   | Administration  | PC14 | 192.168.30.3     | 255.255.255.0    |
+| 30   | Administration  | PC15 | 192.168.30.4     | 255.255.255.0    |
 
-2. Comment pourrait-on faire communiquer les VLANs entre eux ?
 
-3. Quel est l'intérêt de segmenter le réseau en VLANs ?
+### Questions:
+
+-  Pourquoi les PC de VLANs différents ne peuvent-ils pas communiquer ?    
+Le switch sépares les équipements des différents VLANs et les empêchent de communiquer. On peut aussi les considérer comme des réseaux indépendents.
+
+- Comment pourrait-on faire communiquer les VLANs entre eux ?
+Avec un Routeur ou un paramétrage plus profond du switch et des VLANs.
+
+- Quel est l'intérêt de segmenter le réseau en VLANs ?
+Les intérêts sont multiples notement en sécurité, les services sont séparés par des vlans et ne peuvent pas intéragir en eux. Aussi, on peux directement faire cela sur le switch au lieu de faire un cablage physique séparé.
+
+
 #TP 2
 
 | VLAN | Département | PC   | IP        | Masque        | Passerelle |
