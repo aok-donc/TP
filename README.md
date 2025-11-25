@@ -53,10 +53,10 @@
 Si on supprime une route statique sur R1, il ne pourra plus atteindre le réseau correspondant et le trafic sera bloqué.
 
 - Pourquoi utiliser un masque /30 pour la liaison WAN ?
-Un masque /30 est utilisé sur une liaison WAN car il fournit exactement 2 adresses utilisables
+Un masque /30 est utilisé sur une liaison WAN car il fournit exactement 4 adresses utilisables
 
 - Pouvons-nous ajouter un 3ème site ?
-Oui, on peut ajouter un 3e site en créant de nouvelles routes et en modifiant le masque utilisé.
+Oui, on peut ajouter un 3e site sans modifier le masque utilisé.
 
 - Quels sont les avantages et inconvénients du routage statique ?
 Le routage statique est simple, rapide et sécurisé, mais ne s’adapte pas automatiquement et devient difficile à gérer sur de grands réseaux.
